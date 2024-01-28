@@ -2,7 +2,6 @@ import 'dart:io';
 
 void main(List<String> args) {
   final input = stdin.readLineSync()!.split('').toList();
-  final sortedList = List.from(input).sort((a, b) => a.compareTo(b));
 
   var storeStr = 'A';
   var seperator = 0;
